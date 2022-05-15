@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Saint Andrews - Gramado/RS</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS alterado-->
+    <link href="assets/css/estilos.css" rel="stylesheet">
+
+    <!--Animação do Jquery com Âncora-->
+    <script type="text/javascript">
+      $(function() {
+        $('a').bind('click',function(event){
+        var $anchor = $(this);
+        
+      $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1000,'easeInOutExpo');
+    </script>  
+
+  </head>
+
+  <body>
+
+<!--Cabeçalho-->
+  <div class="page-header">
+    <h1>Saint Andrews Hotel<small> - O Luxo em Gramado/Brasil</small></h1>
+  </div>
+    
+
+<!--Início do menu-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">Saint Andrews</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Hotel<span class="sr-only">(current)</span></a></li>
+            <li><a href="#sobre-hotel">Sobre o Hotel</a></li>
+            <li><a href="#comodidades">Comodidades</a></li>
+            <li><a href="#ofertas-especiais">Ofertas especiais</a></li>    
+            <li><a href="#suites">Suítes</a></li>            
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>                        
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Deseja procurar?">
+            </div>
+              <button type="submit" class="btn btn-default">Procurar</button>
+          </form>          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+<!--Fim do menu-->
+
+
+<!--Início do carrousel das imagens-->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="assets/img/img1-carousel-1920x810.jpeg" alt="Imagem1">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img2-carousel-1920x810.jpeg" alt="Imagem2">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img3-carousel-1920x810.jpeg" alt="Imagem3">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img4-carousel-1920x810.jpeg" alt="Imagem4">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img5-carousel-1920x810.jpeg" alt="Imagem5">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img6-carousel-1920x810.jpeg" alt="Imagem6">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img7-carousel-1920x810.jpeg" alt="Imagem7">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img8-carousel-1920x810.jpeg" alt="Imagem8">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img9-carousel-1920x810.jpeg" alt="Imagem9">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img src="assets/img/img10-carousel-1920x810.jpeg" alt="Imagem10">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+<!--Fim do carrousel das imagens-->
+
+
+<!--Inicio - Sobre o hotel-->
+<section id="sobre-hotel">
+  <article>
+    <header id="sobre-hotel-cab">SAINT ANDREWS GRAMADO</header>
+      <p id="sobre-hotel-par">Conheça o Hotel Saint Andrews Gramado, o hotel mais luxuoso do Brasil. Sofisticação, requinte, excelência no atendimento e exclusividade são as nossas principais características.</p>
+      <footer id="sobre-hotel-rod">O Melhor Hotel do Brasil</footer>
+  </article>
+</section>
+<!--Fim - Sobre o hotel-->
+
+    
+<!--Inicio - Comodidades-->
+<section id="comodidades">
+<h2>Comodidades</h2>
+    <ul class="list-inline">
+      <li>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Piscina coberta
+        </button>
+      </li>
+      <li>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Comodidades VIP
+        </button>
+      </li>
+      <li>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span> Bar
+        </button>
+      </li>
+      <li>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-signal" aria-hidden="true"></span> Wifi Gratuito
+        </button>
+      </li>  
+      <li>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Academia
+        </button>
+      </li>  
+      <li>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-plane" aria-hidden="true"></span> Translado aeroporto
+        </button>
+      </li>
+    </ul>
+</section>
+<!--Fim - Comodidades-->
+
+<main>
+<!--Inicio - Ofertas-->
+<section id="ofertas-especiais">
+<h2>Ofertas Especiais</h2>
+    <div class="row">
+      <div class="col-xs-6 col-md-4">
+        <section>
+          <img src="assets/img/ofertas-junho.jpg" class="img-responsive" alt="Ofertas Junho">       
+          <article>
+            <header><h4>Junho</h4></header>
+            <p>Programações para o mês de Junho. Inverno Romântico, Festival Ruinart e Festival Macallan.</p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <section>
+          <img src="assets/img/ofertas-julho.jpg" class="img-responsive" alt="Ofertas Julho">       
+          <article>
+            <header><h4>Julho</h4></header>
+            <p>Programações para o mês de Julho. Inverno Romântico, Festival Charutos & Whisky e Festival Catena Zapata.</p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <section>
+          <img src="assets/img/ofertas-agosto.jpg" class="img-responsive" alt="Ofertas Agosto">       
+          <article>
+            <header><h4>Agosto<h4></header>
+            <p>Programações para o mês de Agosto. Inverno Romântico e Dia dos Pais.</p>
+          </article>
+        </section> 
+      </div>
+    </div>
+</section>
+<!--Fim - Ofertas-->
+
+
+<!--Inicio - Suítes-->
+<section id="suites">
+<h2>Suítes</h2>
+    <div class="row">
+      <div class="col-xs-6 col-md-3">
+        <section>
+          <img src="assets/img/suite-ambar-483x241.jpg" class="img-responsive" alt="Suite Ambar">       
+          <article>
+            <header><h4>Ambar</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <section>
+          <img src="assets/img/suite-topazio-483x241.jpg" class="img-responsive" alt="Suite Topazio">       
+          <article>
+            <header><h4>Topazio</h4></header>
+            <p></p>
+          </article>
+        </section>   
+      </div>      
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-turquesa-483x241.jpg" class="img-responsive" alt="Suite Turquesa">       
+          <article>
+            <header><h4>Turquesa</h4></header>
+            <p></p>
+          </article>
+        </section>
+      </div>  
+             
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-esmeralda-483x241.jpg" class="img-responsive" alt="Suite Esmeralda">       
+          <article>
+            <header><h4>Diamante</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-granada-483x241.jpg" class="img-responsive" alt="Suite Granada">       
+          <article>
+            <header><h4>Granada</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-jade-483x241.jpg" class="img-responsive" alt="Suite Jade">       
+          <article>
+            <header><h4>Jade</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-onix-483x241.jpg" class="img-responsive" alt="Suite Onix">       
+          <article>
+            <header><h4>Onix</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-perola-483x241.jpg" class="img-responsive" alt="Suite Perola">       
+          <article>
+            <header><h4>Perola</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-rubi-483x241.jpg" class="img-responsive" alt="Suite Rubi">       
+          <article>
+            <header><h4>Rubi</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-cristal-483x241.jpg" class="img-responsive" alt="Suite Cristal">       
+          <article>
+            <header><h4>Cristal</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/suite-diamante-483x241.jpg" class="img-responsive" alt="Suite Diamente">       
+          <article>
+            <header><h4>Diamante</h4></header>
+            <p></p>
+          </article>
+        </section> 
+      </div>
+      <div class="col-xs-6 col-md-3">        
+        <section>
+          <img src="assets/img/logotipo-saint-andrews-hotel-gramado.png" class="img-responsive" alt="Logotipo">       
+          
+        </section> 
+      </div>                             
+    </div>
+</section>
+<!--Fim - Suítes-->
+
+</main>
+
+
+<!--Inicio - Rodapé-->
+<footer id="rodape">
+  <ul class="list-inline">
+    <li>Autoria e Design I</li>
+    <li>Profa.Flavia Pereira</li>
+    <li>Criado por: Leandro Daniel Klein</li>
+    <li>Data da criação: 23/06/2016</li>
+    <li><a href="https://fit.faccat.br/~fpereira/pagina/">Entrar na Página</a></li>
+    <li><a href="http://www.faccat.br"><img src="assets/img/logo_faccat.png" class="img-responsive" alt="Logo Faccat"></a></li>
+  </ul>
+</footer>
+<!--Fim - Rodapé-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <script src="assets/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
